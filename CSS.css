@@ -1,0 +1,128 @@
+//HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+    <link rel="stylesheet" href="Css.css">
+</head>
+<body>
+    <header>
+        <h1>Phoebe Mokoit</h1>
+    </header>
+    
+    <section class="introduction">
+        <h2>Introduction</h2>
+        <p>Hello! I'm Phoebe,a Computer Science student at Strathmore University.</p>
+    </section>
+    
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>C++ Coding</li>
+            <li>Java Developer</li>
+            <li>AI Essentials</li>
+        </ul>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact Information</h2>
+        <p>Email:phoebemokoit@gmail.com</p>
+        <p>Follow me on:
+            <a href="https://twitter.com/chatgpt" target="_blank">Twitter</a> |
+            <a href="https://linkedin.com/in/chatgpt" target="_blank">LinkedIn</a>
+        </p>
+    </section>
+</body>
+</html>
+
+
+
+
+//CSS Code
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: plum; /* Green background */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+/* Introduction section styling */
+.introduction {
+    background-color: #f4f4f4; /* Light grey background */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.introduction h2 {
+    margin-bottom: 10px;
+}
+
+/* Skills section styling */
+.skills {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.skills h2 {
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contact section styling */
+.contact {
+    background-color: #e2e2e2; /* Light grey background */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    .introduction, .skills, .contact {
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .skills li {
+        padding: 8px;
+    }
+}
